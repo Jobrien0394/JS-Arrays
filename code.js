@@ -15,9 +15,11 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 // - Your code should output the following:
 //     jumped
 //     fence
-let sentence = ["The", "dog", "jumped", "over", "the", "fence"];
+let sentence = ["The", "dog", "jumped", "over", "the", "fence"]; 
 // Write your code here 👇
 
+    console.log(sentence[2])
+    console.log(sentence[sentence.length - 1])
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Two");
@@ -33,7 +35,15 @@ console.log("Exercise Two");
 let numbers = [3, 4, 5, 7, 9];
 // Write your code here 👇
 
-
+    let total = 0
+ total += numbers[0]
+ total += numbers[1]
+ total += numbers[2]
+ total += numbers[3]
+ total += numbers[4]
+ 
+ console.log (total)       
+ console.log (total === 28)       
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Three");
 // Creating an array
@@ -43,6 +53,10 @@ console.log("Exercise Three");
 // - Then Log the length of the array to the console (it should print 5)
 // Write your code here 👇
 
+    let colors = ["orange", "red", "blue", "green", "black"];
+    console.log(colors);
+    console.log(colors.length);
+    console.log(colors.length === 5);
 
 // ----------------------------------------------------------------------------------------------
 console.log("Exercise Four");
@@ -54,6 +68,11 @@ console.log("Exercise Four");
 let names = []; // Don't modify this line.
 let index = 2;
 // Write your code here 👇
+names = ["John", "Jason", "Jon", "Joe", "Jacob"]
+console.log(names);
+console.log(names[names.length-1])
+names[index] = ("Master Chief")
+console.log(names)
 
 
 // ----------------------------------------------------------------------------------------------
@@ -66,7 +85,8 @@ console.log("Exercise Five");
 let firstArray = ["This", "will", "make"];
 let secondArray = ["a", "combined", "array."];
 // Write your code here 👇
-
+let something = firstArray.concat(secondArray);
+console.log(something)
 
 
 // When you are done with all of the exercises, check your console output to make sure it
